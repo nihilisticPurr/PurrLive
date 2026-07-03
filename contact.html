@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Poker Event Singapore | Elite Poker SG</title>
+  <meta name="description" content="Book poker tournaments in Singapore for Token2049, private events, and corporate parties. Easy booking form & instant WhatsApp contact.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="logo-container">
+      <a href="index.html" class="logo"><img src="images/logo.png" alt="Elite Poker Logo"></a>
+      <span class="tagline">Your one-stop shop for poker tournaments in Singapore</span>
+    </div>
+    <button class="menu-btn" id="menu-toggle">☰</button>
+    <div class="nav-links" id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html" class="active">Contact</a>
+    </div>
+  </nav>
+
+  <section>
+    <h2>Book Your Event</h2>
+    <p style="text-align: center; max-width: 700px; margin: -30px auto 40px; color: var(--text-muted);">
+      Fill out the inquiry form below to plan your elite poker experience. We will get back to you with custom packages within 24 hours.
+    </p>
+
+    <form id="booking-form" onsubmit="event.preventDefault(); alert('Thank you! Your booking request has been submitted. We will contact you soon.');">
+      <div>
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="Chow Yun Fat" required>
+      </div>
+
+      <div>
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="john@example.com" required>
+      </div>
+
+      <div>
+        <label for="date">Event Date</label>
+        <input type="date" id="date">
+      </div>
+
+      <div>
+        <label for="guests">Estimated Number of Players</label>
+        <input type="number" id="guests" placeholder="e.g. 20" min="1">
+      </div>
+
+      <div>
+        <label for="details">Event Details & Requests</label>
+        <textarea id="details" rows="5" placeholder="Let us know your preferences (e.g., catering, venue sourcing, multiple tables)..."></textarea>
+      </div>
+
+      <button type="submit" class="btn">Submit Booking Request</button>
+    </form>
+
+    <div class="whatsapp-contact">
+      <h3>Or Contact Instantly</h3>
+      <p style="color: var(--text-muted); margin-bottom: 20px;">Have questions right now? Chat with our event coordinator via WhatsApp.</p>
+      <a href="https://wa.me/6581100622?text=Hi%2C%20I%20want%20to%20organise%20a%20poker%20event.%0ADate%3A%20%0APlayers%3A%20%0AVenue%20selected%3F%3A%20Y%2FN%0ARequirements%3A%20" class="btn" target="_blank" rel="noopener noreferrer">
+        Chat on WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Elite Poker SG. All rights reserved.</p>
+    <p style="font-size: 12px; color: rgba(255,255,255,0.3);">Exquisite Corporate & Private Poker Events in Singapore</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
