@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Disallow: /googlee576b1aa3440b1c6.html
+
+Sitemap: https://purrlive.xyz/sitemap.xml
